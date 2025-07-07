@@ -15,7 +15,7 @@ function Footer() {
         </div>
 
         {/* Center - Navigation Links */}
-        <div className="flex gap-6 pl-15 text-sm font-medium">
+        <div className="flex gap-6 text-sm font-medium">
           <a href="#hero" className="hover:text-blue-400 transition-all duration-200">Home</a>
           <a href="#about" className="hover:text-blue-400 transition-all duration-200">About</a>
           <a href="#skills" className="hover:text-blue-400 transition-all duration-200">Skills</a>
