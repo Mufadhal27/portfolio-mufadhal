@@ -92,7 +92,7 @@ function Skills() {
         >
           <div className="flex flex-col gap-6 mt-40">
             <SkillBox title="Frontend" color="text-yellow-400" items={['JavaScript', 'React.js', 'Tailwind CSS', 'Bootstrap']} />
-            <SkillBox title="Database" color="text-purple-400" items={['MySQL']} />
+            <SkillBox title="Database" color="text-purple-400" items={['MySQL', 'MongoDB']} />
           </div>
           <div className="flex flex-col gap-6 mt-50">
             <SkillBox title="Backend" color="text-green-400" items={['Node.js', 'Express.js', 'Laravel', 'PHP']} />
