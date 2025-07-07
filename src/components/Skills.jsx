@@ -80,7 +80,7 @@ function Skills() {
           } grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6`}
         >
           <SkillBox title="Frontend" color="text-yellow-400" items={['JavaScript', 'React.js', 'Tailwind CSS', 'Bootstrap']} />
-          <SkillBox title="Database" color="text-purple-400" items={['MySQL']} />
+          <SkillBox title="Database" color="text-purple-400" items={['MySQL', 'MongoDB']} />
           <SkillBox title="Backend" color="text-green-400" items={['Node.js', 'Express.js', 'Laravel', 'PHP']} />
           <SkillBox title="Tools" color="text-cyan-400" items={['Git & GitHub', 'VS Code', 'Postman', 'Figma']} />
         </div>
