@@ -10,13 +10,22 @@ const projects = [
     repo: "https://github.com/Mufadhal27/barbershop-app-vite",
   },
   {
-    title: "Talky Chatbot AI",
+    title: "Talky AI Chatbot",
     description:
       "An AI chatbot application that features real-time conversations with Gemini, Google's AI API. Built using React.js, Tailwind CSS, and Axios. Express backend is used to secure communication to the AI ​​service.",
     tech: ["React", "Tailwind CSS", "Gemini API", "Node.js", "Express.js"],
     link: "https://ai-chatbot-app-xi.vercel.app/",
     repo: "https://github.com/Mufadhal27/ai-chatbot-app",
   },
+  {
+    title: "Medisia Clinic Website",
+    description:
+      "Clinic website equipped with AI chatbot to answer health questions such as symptoms and diseases. Built using React.js and Tailwind CSS on the frontend, and Node.js, Express.js, and MongoDB on the backend. The chatbot is integrated with Google's Gemini API to provide real-time responses.",
+    tech: ["React.js", "Tailwind CSS","JavaScript", "Gemini API", "Node.js", "Express.js", "MongoDB"],
+    link: "https://klinik-app-frontend.vercel.app/",
+    repo: "https://github.com/Mufadhal27/klinik-app-frontend"
+  }
+
 ];
 
 function Projects() {
