@@ -14,7 +14,7 @@ const projects = [
     description:
       "An AI chatbot application that features real-time conversations with Gemini, Google's AI API. Built using React.js, Tailwind CSS, and Axios. Express backend is used to secure communication to the AI ​​service.",
     tech: ["React", "Tailwind CSS", "Gemini API", "Node.js", "Express.js"],
-    link: "https://ai-chatbot-app-xi.vercel.app/",
+    link: "https://talky-chatbot-l7ya7tso4-mufadhals-projects.vercel.app/",
     repo: "https://github.com/Mufadhal27/ai-chatbot-app",
   },
   {
