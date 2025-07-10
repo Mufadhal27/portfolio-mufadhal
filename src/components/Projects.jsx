@@ -22,7 +22,7 @@ const projects = [
     description:
       "Clinic website equipped with AI chatbot to answer health questions such as symptoms and diseases. Built using React.js and Tailwind CSS on the frontend, and Node.js, Express.js, and MongoDB on the backend. The chatbot is integrated with Google's Gemini API to provide real-time responses.",
     tech: ["React.js", "Tailwind CSS","JavaScript", "Gemini API", "Node.js", "Express.js", "MongoDB"],
-    link: "https://klinik-app-frontend.vercel.app/",
+    link: "https://klinik-app-frontend.vercel.app",
     repo: "https://github.com/Mufadhal27/klinik-app-frontend"
   }
 
