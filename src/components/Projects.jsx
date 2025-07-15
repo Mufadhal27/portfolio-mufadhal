@@ -31,7 +31,7 @@ const projects = [
 function Projects() {
   return (
     <section className="py-16 container mx-auto px-4" id="projects">
-      <h2 className="text-2xl mt-3 md:text-3xl font-bold mb-6 text-blue-400 text-center">Projects</h2>
+      <h2 className="text-2xl md:text-3xl font-bold mb-6 text-blue-400 text-center">Projects</h2>
       <div className="grid md:grid-cols-2 items-start gap-8 mt-10 mb-10">
         <div>
           <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl transition-all duration-300 cursor-pointer group border border-transparent hover:border-blue-400 hover:bg-blue-400/20">
