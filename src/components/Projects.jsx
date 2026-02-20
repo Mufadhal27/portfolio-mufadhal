@@ -21,9 +21,20 @@ const projects = [
     title: "Medisia Clinic Website",
     description:
       "Clinic website equipped with AI chatbot to answer health questions such as symptoms and diseases. Built using React.js and Tailwind CSS on the frontend, and Node.js, Express.js, and MongoDB on the backend. The chatbot is integrated with Google's Gemini API to provide real-time responses.",
-    tech: ["React.js", "Tailwind CSS","JavaScript", "Gemini API", "Node.js", "Express.js", "MongoDB", "JWT"],
+    tech: ["React.js", "Tailwind CSS", "JavaScript", "Gemini API", "Node.js", "Express.js", "MongoDB", "JWT"],
     link: "https://klinik-app-frontend.vercel.app",
     repo: "https://github.com/Mufadhal27/klinik-app-frontend"
+  },
+  {
+  title: "OutRent",
+  description: `OutRent is an outdoor equipment rental website developed as a group project. The platform allows users to browse products, make rentals, and view their transaction history through a responsive and user-friendly interface. In this project, I worked as a Frontend Developer, building the user interface, handling page navigation, and integrating the frontend with the backend to ensure a smooth user experience.`,
+  demo: {
+    email: "admin@example.com",
+    password: "password123"
+  },
+  tech: ["React.js", "Tailwind CSS", "JavaScript", "Laravel", "PHP", "MySQL", "JWT"],
+  link: "https://outrent-sibm3.karyakreasi.id/",
+  repo: "https://github.com/sabrina-smrna/project-nfa-25"
   }
 
 ];
@@ -53,6 +64,21 @@ function Projects() {
             <div>
               <h3 className="font-semibold text-lg mb-2 text-blue-400">{project.title}</h3>
               <p className="text-sm text-zinc-300 mb-3">{project.description}</p>
+              {project.demo && (
+                <div className="mt-4 mb-4 p-3 rounded-lg bg-slate-800 border border-slate-600 text-sm space-y-1">
+                  <p className="font-semibold text-blue-400">
+                    Admin Demo Access
+                  </p>
+                  <div className="flex justify-between">
+                    <span>Email</span>
+                    <span>{project.demo.email}</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Password</span>
+                    <span>{project.demo.password}</span>
+                  </div>
+                </div>
+              )}
               <div className="flex flex-wrap gap-2 text-xs text-zinc-400 mb-4">
                 {project.tech.map((t, i) => (
                   <span key={i} className="bg-zinc-700 px-2 py-1 rounded">{t}</span>
